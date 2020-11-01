@@ -1,3 +1,6 @@
-# tsaosun.github.io
-Tahsina's WIP Personal Website. Coming soon:
+# tsaosun.github.io - Personal Website
+
+Tahsina Saosun's Personal Website. 
+
+Items in the backlog:
 - Updating css of the site
