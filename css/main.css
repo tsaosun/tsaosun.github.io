@@ -43,3 +43,80 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* Resume Styles */
+.resume-container {
+    max-width: 900px;
+    margin: 20px auto;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+.resume-section {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+.resume-section h2 {
+    font-size: 1.8em;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.job {
+    margin-bottom: 25px;
+}
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+}
+.job-title {
+    font-size: 1.4em;
+    color: #222;
+}
+.job-date {
+    font-style: italic;
+    color: #777;
+}
+.job-company {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+.resume-list {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+.resume-list li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    list-style-type: disc;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.skill-category h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #555;
+}
+.download-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #666;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.download-link:hover {
+    background-color: #333;
+    text-decoration: none;
+}
